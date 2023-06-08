@@ -1,0 +1,5 @@
+value class B {
+  final int i;
+
+  public B() {  i = 5; };
+}
