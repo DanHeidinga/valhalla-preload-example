@@ -1,3 +1,6 @@
+*Update*: Resolved.  Hotspot doesn't link the class when creating a j.l.Class instance.  That occurs later.
+When forcing the class to be linked, the preload occurs.
+ 
 Playing with the preload classfile attribute and seeing some strange behaviour.
 
 1. Build a JDK from the valhalla repo and the `lworld` branch

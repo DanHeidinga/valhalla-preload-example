@@ -14,6 +14,7 @@ public static void main(String[] args) throws Throwable {
 	ARGS = args;
 
 	Class<?> c = new LoaderTest().loadClass(args[0], false);
+	c.newInstance();
 	System.out.println(""+c+"::loader="+c.getClassLoader());
 
 }
